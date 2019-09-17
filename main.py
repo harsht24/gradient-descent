@@ -39,6 +39,6 @@ r2_score = 1 - (ssr / sst)
 print("R2 score or coefficient of determination: ", r2_score)
 
 plt.scatter(x, y)
-plt.plot([min(x), max(x)], [min(Y_pred), max(Y_pred)], color='red') # predicted
+plt.plot([min(x), max(x)], [min(Y_pred), max(Y_pred)], color='blue') # predicted
 plt.show()
 
